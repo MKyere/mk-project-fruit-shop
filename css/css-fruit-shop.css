@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+
+  padding: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container {
+  background-image: url('/images/fruits.png');
+	background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100vh;
+ margin: 10px  10px;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+dt {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.text-box {
+  background-color: rgba(255,255,255,0.7);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 10%;
+	left: 18%;
+	width: 62%;
+	padding: 25px;
+	align-items: center;
+}
+
+.basket-container {
+  background-image: url('/images/fruits.png');
+	background-position: top;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+ margin: 10px  10px;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.toggle-area {
+ padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
