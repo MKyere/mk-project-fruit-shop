@@ -13,7 +13,7 @@
 }
 
 .main-container {
-  background-image: url('/images/fruits.png');
+  background-image: url('../images/fruits.png');
 	background-position: bottom;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@ li {
 }
 
 .basket-container {
-  background-image: url('/images/fruits.png');
+  background-image: url('../images/fruits.png');
 	background-position: top;
   display: flex;
   flex-direction: column;
